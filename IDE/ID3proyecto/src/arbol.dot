@@ -1,0 +1,17 @@
+digraph ID3 {
+n0 [label="Clima"];
+n1 [label="Clase: Si", shape=box];
+n0 -> n1 [label="Lluvioso"];
+n2 [label="Temperatura"];
+n3 [label="Humedad"];
+n4 [label="Viento"];
+n5 [label="Clase: No", shape=box];
+n4 -> n5 [label="No"];
+n6 [label="Clase: no", shape=box];
+n4 -> n6 [label="SI"];
+n3 -> n4 [label="Alta"];
+n2 -> n3 [label="Calor"];
+n0 -> n2 [label="Soleado"];
+n7 [label="Clase: Si", shape=box];
+n0 -> n7 [label="Nublado"];
+}
